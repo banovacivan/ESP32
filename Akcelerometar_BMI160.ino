@@ -43,9 +43,9 @@ void loop()
   float az_ms = az * (9.81 / 16384);
 
   Serial.printf("akceleracija u m/s^2: ");
-  Serial.printf("%.2f " ,ax_ms , 2);
-  Serial.printf("%.2f " ,ay_ms , 2);
-  Serial.printf("%.2f\n" ,az_ms , 2);
+  Serial.printf("%.2f " ,ax_ms);
+  Serial.printf("%.2f " ,ay_ms);
+  Serial.printf("%.2f\n" ,az_ms);
   delay(50);
 }
 
